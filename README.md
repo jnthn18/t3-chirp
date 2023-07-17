@@ -2,6 +2,14 @@
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
+The video this demo was completed from can be found [here](https://www.youtube.com/watch?v=YkOSUVzOAA4&t=149s&ab_channel=Theo-t3%E2%80%A4gg).
+
+## Next steps
+
+- Improve the take 100, and add pagination
+- Make links on post better
+- Create Post wizard, use react-hook-form
+
 ## What's next? How do I make an app with this?
 
 We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
