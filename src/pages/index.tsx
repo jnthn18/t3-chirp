@@ -44,16 +44,14 @@ const PostView = (props: PostWithUser) => {
         width={56}
         height={56}
       />
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-1">
         <div className="flex text-slate-300">
           <span>{`@${author.username}`}</span>
           <span className="font-thin">
             &nbsp;{`- ${dayjs(post.createdAt).fromNow()}`}
           </span>
         </div>
-        <div className="flex">
-          <span>{post.content}</span>
-        </div>
+        <span className="text-2xl">{post.content}</span>
       </div>
     </div>
   );
